@@ -1,0 +1,114 @@
+name,constellation,ra_h,dec_deg,mag,spectral
+Sirius,Canis Major,6.7525,-16.7131,-1.44,A1V
+Canopus,Carina,6.3992,-52.6961,-0.62,F0II
+Rigil Kentaurus,Centaurus,14.6608,-60.8333,-0.01,G2V
+Vega,Lyra,18.6156,38.7837,0.03,A0V
+Capella,Auriga,5.2781,45.9978,0.08,G5III
+Arcturus,Bootes,14.2611,19.1824,-0.05,K1.5III
+Rigel,Orion,5.2422,-8.2015,0.13,B8Ia
+Procyon,Canis Minor,7.655,5.225,0.34,F5IV
+Achernar,Eridanus,1.6283,-57.2368,0.45,B6Vep
+Betelgeuse,Orion,5.9195,7.4071,0.5,M1-M2Ia
+Hadar,Centaurus,14.0636,-60.3839,0.61,B1III
+Altair,Aquila,19.8464,8.8683,0.76,A7V
+Aldebaran,Taurus,4.5987,16.5093,0.86,K5III
+Spica,Virgo,13.4204,-11.1614,0.97,B1III-IV
+Antares,Scorpius,16.4901,-26.4319,1.06,M1.5Iab-Ib
+Pollux,Gemini,7.7553,28.0262,1.14,K0III
+Fomalhaut,Piscis Austrinus,22.9598,-29.6222,1.16,A3V
+Acrux,Crux,12.4433,-63.099,0.76,B0.5IV
+Mimosa,Crux,12.7953,-59.6886,1.25,B0.5III
+Deneb,Cygnus,20.6905,45.2803,1.25,A2Ia
+Regulus,Leo,10.1395,11.9672,1.35,B7V
+Adhara,Canis Major,6.9771,-28.9721,1.5,B2II
+Castor,Gemini,7.5767,31.8883,1.58,A1V
+Shaula,Scorpius,17.5628,-37.1038,1.63,B1.5IV
+Gacrux,Crux,12.5196,-57.1132,1.63,M3.5III
+Bellatrix,Orion,5.4188,6.3497,1.64,B2III
+Miaplacidus,Carina,9.2201,-69.7172,1.67,A2II
+Elnath,Taurus,5.4382,28.6075,1.65,B7III
+Alnilam,Orion,5.6036,-1.2019,1.69,B0Ia
+Alioth,Ursa Major,12.9005,55.9598,1.76,A1III-IV
+Alnair,Grus,22.1427,-46.961,1.74,B6V
+Mirfak,Perseus,3.4054,49.8612,1.79,F5Ib
+Kaus Australis,Sagittarius,18.4027,-34.3846,1.79,B9.5III
+Dubhe,Ursa Major,11.0621,61.751,1.79,K0III
+Wezen,Canis Major,7.1399,-26.3932,1.83,F8Ia
+Alkaid,Ursa Major,13.7923,49.3133,1.85,B3V
+Sargas,Scorpius,17.622,-42.9978,1.86,F1II
+Atria,Triangulum Australe,16.811,-69.0273,1.91,K2IIb
+Alnitak,Orion,5.6793,-1.9426,1.74,O9.5Iab
+Menkalinan,Auriga,5.9917,44.9472,1.9,A1IV
+Peacock,Pavo,20.4272,-56.7347,1.94,B2IV
+Alhena,Gemini,6.6283,16.3992,1.93,A1.5IV+
+Avior,Carina,8.375,-59.5097,1.86,K3III
+Mirzam,Canis Major,6.3783,-17.9559,1.98,B1II/III
+Alphard,Hydra,9.4597,-8.6589,1.98,K3II-III
+Polaris,Ursa Minor,2.5298,89.2641,1.98,F7Ib-II
+Hamal,Aries,2.1195,23.5378,2.0,K2III
+Menkent,Centaurus,14.1111,-36.3697,2.06,K0III
+Diphda,Cetus,0.7264,-17.9866,2.02,K1.5III
+Alpheratz,Andromeda,0.1397,29.0904,2.06,B8IVp
+Saiph,Orion,5.7959,-9.6696,2.07,B0.5Ia
+Kochab,Ursa Minor,14.8451,74.1555,2.07,K4III
+Nunki,Sagittarius,18.9208,-26.2965,2.02,B2.5V
+Mirach,Andromeda,1.161,35.6207,2.05,M0III
+Rasalhague,Ophiuchus,17.5822,12.56,2.08,A5III
+Algol,Perseus,3.1361,40.9556,2.12,B8V
+Denebola,Leo,11.8175,14.5721,2.14,A3V
+Almach,Andromeda,2.0647,42.3297,2.15,K3IIb+B8V
+Sadr,Cygnus,20.3706,40.2567,2.23,F8Ib
+Naos,Puppis,8.0598,-40.0033,2.21,O4I
+Mizar,Ursa Major,13.3987,54.9254,2.23,A2V
+Alphecca,Corona Borealis,15.5781,26.7147,2.23,A0V
+Mintaka,Orion,5.5334,-0.2991,2.23,O9.5II
+Algieba,Leo,10.3314,19.8417,2.08,K0III
+Eltanin,Draco,17.9433,51.489,2.24,K1III
+Schedar,Cassiopeia,0.676,56.5373,2.24,K0IIIa
+Aspidiske,Carina,9.2846,-59.275,2.21,A8Ib
+Caph,Cassiopeia,0.1532,59.1498,2.27,F2III
+Dschubba,Scorpius,16.0056,-22.6219,2.29,B0.2IV
+Merak,Ursa Major,11.0307,56.3824,2.37,A1V
+Ankaa,Phoenix,0.4381,-42.3051,2.39,K0.5IIIb
+Enif,Pegasus,21.7364,9.875,2.38,K2Ib
+Phecda,Ursa Major,11.897,53.6947,2.44,A3V
+Sabik,Ophiuchus,17.1728,-15.7247,2.43,A2V
+Aludra,Canis Major,7.4014,-29.3031,2.45,B5Ia
+Alderamin,Cepheus,21.3097,62.5855,2.45,A7IV
+Scheat,Pegasus,23.0631,28.0825,2.42,M2.5II-III
+Markab,Pegasus,23.0794,15.2053,2.49,B9.5III
+Menkar,Cetus,3.0361,4.0897,2.54,M1.5IIIa
+Zosma,Leo,11.235,20.527,2.56,A4V
+Arneb,Lepus,5.545,-17.8223,2.58,F0Ib
+Gienah,Corvus,12.2633,-17.5425,2.58,B8III
+Ascella,Sagittarius,19.0433,-29.8806,2.6,A2.5IV
+Acrab,Scorpius,16.0906,-19.8055,2.62,B1V
+Unukalhai,Serpens,15.7378,6.4255,2.65,K2III
+Lesath,Scorpius,17.5125,-37.2956,2.7,B2IV
+Ruchbah,Cassiopeia,1.4303,60.2353,2.68,A5V
+Muphrid,Bootes,13.9211,18.397,2.68,G0IV
+Tarazed,Aquila,19.7708,10.613,2.72,K3II
+Izar,Bootes,14.7497,27.0747,2.7,K0.5II-III
+Zubenelgenubi,Libra,14.847,-16.0426,2.75,A3IV
+Yed Prior,Ophiuchus,16.2389,-3.6942,2.75,M1.5III
+Porrima,Virgo,12.6989,-1.4495,2.74,F0V
+Cebalrai,Ophiuchus,17.7244,4.5673,2.76,K2III
+Kornephoros,Hercules,16.5038,21.4894,2.77,G7III
+Cursa,Eridanus,5.1308,-5.0856,2.79,A3V
+Rastaban,Draco,17.507,52.3014,2.79,G2II
+Kaus Borealis,Sagittarius,18.4661,-25.4214,2.81,K1III
+Vindemiatrix,Virgo,13.0361,10.9592,2.83,G8III
+Algenib,Pegasus,0.2206,15.1839,2.83,B2IV
+Nihal,Lepus,5.4706,-20.7597,2.85,F5II
+Albireo,Cygnus,19.512,27.9597,3.08,K2II+B8V
+Sheliak,Lyra,18.8348,33.3625,3.45,B8II+B9.5V
+Sulafat,Lyra,18.982,32.69,3.24,B9III
+Alshain,Aquila,19.921,6.4067,3.71,G8IV
+Ain,Taurus,4.477,19.1804,3.53,K0.5III
+Zeta Tauri,Taurus,5.6272,21.1425,2.99,B4III
+Wasat,Gemini,7.3355,21.9822,3.53,F0IV
+Delta Andromedae,Andromeda,0.6558,30.861,3.27,K3III
+Matar,Pegasus,22.7128,30.5533,2.94,G2III
+Gamma Cassiopeiae,Cassiopeia,0.9451,60.7167,2.47,B0.5IVpe
+Segin,Cassiopeia,1.9067,63.67,3.35,B3V
+Eta Cassiopeiae,Cassiopeia,0.544,57.815,3.45,G0V

@@ -1,0 +1,1 @@
+The included prototype weight `star_patch_cnn.pt` is a compact CNN trained on synthetic star/non-star patches. The app uses it as an optional visual verification stage before astrometric catalog matching. The synthetic validation score is stored in `reports/star_detector_metrics.json`; it is not a real-world accuracy claim.

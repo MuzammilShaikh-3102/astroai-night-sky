@@ -1,0 +1,61 @@
+{
+  "Orion": [
+    ["Betelgeuse", "Bellatrix"],
+    ["Bellatrix", "Mintaka"],
+    ["Mintaka", "Alnilam"],
+    ["Alnilam", "Alnitak"],
+    ["Alnitak", "Saiph"],
+    ["Saiph", "Rigel"],
+    ["Rigel", "Bellatrix"],
+    ["Alnilam", "Betelgeuse"]
+  ],
+  "Ursa Major": [
+    ["Dubhe", "Merak"], ["Merak", "Phecda"], ["Phecda", "Megrez"],
+    ["Megrez", "Alioth"], ["Alioth", "Mizar"], ["Mizar", "Alkaid"]
+  ],
+  "Cassiopeia": [
+    ["Caph", "Schedar"], ["Schedar", "Gamma Cassiopeiae"],
+    ["Gamma Cassiopeiae", "Ruchbah"], ["Ruchbah", "Segin"]
+  ],
+  "Cygnus": [
+    ["Deneb", "Sadr"], ["Sadr", "Albireo"]
+  ],
+  "Lyra": [
+    ["Vega", "Sheliak"], ["Vega", "Sulafat"], ["Sheliak", "Sulafat"]
+  ],
+  "Aquila": [
+    ["Altair", "Tarazed"], ["Altair", "Alshain"]
+  ],
+  "Scorpius": [
+    ["Antares", "Dschubba"], ["Dschubba", "Acrab"],
+    ["Antares", "Sargas"], ["Sargas", "Shaula"], ["Shaula", "Lesath"]
+  ],
+  "Sagittarius": [
+    ["Kaus Australis", "Kaus Media"], ["Kaus Media", "Kaus Borealis"],
+    ["Kaus Australis", "Ascella"], ["Nunki", "Kaus Media"]
+  ],
+  "Taurus": [
+    ["Aldebaran", "Ain"], ["Aldebaran", "Elnath"], ["Aldebaran", "Zeta Tauri"]
+  ],
+  "Gemini": [
+    ["Castor", "Pollux"], ["Pollux", "Alhena"], ["Castor", "Wasat"]
+  ],
+  "Leo": [
+    ["Regulus", "Algieba"], ["Algieba", "Zosma"], ["Zosma", "Denebola"]
+  ],
+  "Canis Major": [
+    ["Sirius", "Mirzam"], ["Sirius", "Adhara"], ["Adhara", "Wezen"], ["Wezen", "Aludra"]
+  ],
+  "Andromeda": [
+    ["Alpheratz", "Mirach"], ["Mirach", "Almach"], ["Almach", "Delta Andromedae"]
+  ],
+  "Pegasus": [
+    ["Markab", "Scheat"], ["Scheat", "Algenib"], ["Markab", "Algenib"], ["Markab", "Matar"], ["Enif", "Markab"]
+  ],
+  "Virgo": [
+    ["Spica", "Porrima"], ["Porrima", "Vindemiatrix"]
+  ],
+  "Bootes": [
+    ["Arcturus", "Muphrid"], ["Arcturus", "Izar"]
+  ]
+}

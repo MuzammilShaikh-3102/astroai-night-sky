@@ -1,0 +1,5 @@
+{
+  "status": "prototype_smoke_test",
+  "validation_accuracy": 1.0,
+  "warning": "This is a synthetic-data validation result from the included prototype generator. It is not a real-world performance claim. Final evaluation must use held-out smartphone images."
+}
