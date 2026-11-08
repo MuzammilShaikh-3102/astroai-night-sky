@@ -41,7 +41,9 @@ def project_vectors(vectors: np.ndarray, az_deg: float, alt_deg: float, roll_deg
     x = vectors @ right
     y = vectors @ up
     visible = z > 1e-5
-    vfov = 2.0 * np.arctan(np.tan(np.deg2rad(hfov)/2.0) * aspect)
+    # aspect is image width / image height. A narrower portrait image has a smaller HFOV
+    # relative to VFOV, so tan(VFOV/2) = tan(HFOV/2) / aspect.
+    vfov = 2.0 * np.arctan(np.tan(np.deg2rad(hfov)/2.0) / max(aspect, 1e-8))
     px = (x / np.maximum(z, 1e-8)) / np.tan(np.deg2rad(hfov)/2.0)
     py = (y / np.maximum(z, 1e-8)) / np.tan(vfov/2.0)
     visible &= (np.abs(px) <= 1.0) & (np.abs(py) <= 1.0)
@@ -117,7 +119,7 @@ def solve_star_field(altaz_deg: np.ndarray, detections_xy: np.ndarray, image_asp
 
 def project_catalog_to_image(altaz_deg: np.ndarray, result: SolveResult, image_size: tuple[int,int]) -> tuple[np.ndarray, np.ndarray]:
     vectors = altaz_to_vector(altaz_deg[:,0], altaz_deg[:,1])
-    aspect = image_size[1] / max(image_size[0], 1)
+    aspect = image_size[0] / max(image_size[1], 1)
     proj, visible = project_vectors(vectors, result.center_az, result.center_alt, result.roll, result.hfov, aspect)
     w, h = image_size
     if len(proj):
