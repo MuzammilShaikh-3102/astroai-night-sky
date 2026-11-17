@@ -86,14 +86,14 @@ def analyze(image, dt_local: datetime, tz_offset_hours: float, lat: float, lon: 
     dt_utc = ensure_utc(dt_local, tz_offset_hours)
     solve_cat = solver_catalog(catalog, max_stars=min(250, len(catalog)))
     altaz = star_altaz(solve_cat, dt_utc, lat, lon)
-    solve = solve_star_field(altaz, det_norm[:, :2], image_aspect=prepared.size[1] / max(prepared.size[0], 1), max_candidates=min(120,len(solve_cat)), hfov_hint=float(hfov_hint))
+    solve = solve_star_field(altaz, det_norm[:, :2], image_aspect=prepared.size[0] / max(prepared.size[1], 1), max_candidates=min(120,len(solve_cat)), hfov_hint=float(hfov_hint))
     result["solve"] = solve
-    if not solve.success or solve.inliers < 4:
-        result["warning"] = "The sky pattern could not be solved confidently. Adjust the Field of View slider or use a photo with more visible stars."
+    if not solve.success or solve.inliers < 5:
+        result["warning"] = "The sky pattern did not produce at least five independent star matches. No identities are shown; try a clearer image with more stars and verify the capture time, location, and FOV."
     else:
         full_altaz = star_altaz(catalog, dt_utc, lat, lon)
         points_px, visible = project_catalog_to_image(full_altaz, solve, prepared.size)
-        tolerance_px = max(7.0, 0.018 * max(prepared.size))
+        tolerance_px = max(5.0, 0.010 * max(prepared.size))
         matches = match_detections_to_catalog(np.asarray([[p.x,p.y] for p in detections]), points_px, tolerance_px)
         result["matches"] = matches
         for det_idx, cat_idx, dist in matches:
