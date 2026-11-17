@@ -86,7 +86,7 @@ def analyze(image, dt_local: datetime, tz_offset_hours: float, lat: float, lon: 
     dt_utc = ensure_utc(dt_local, tz_offset_hours)
     solve_cat = solver_catalog(catalog, max_stars=min(250, len(catalog)))
     altaz = star_altaz(solve_cat, dt_utc, lat, lon)
-    solve = solve_star_field(altaz, det_norm[:, :2], image_aspect=prepared.size[1] / max(prepared.size[0], 1), max_candidates=min(120,len(solve_cat)), hfov_hint=float(hfov_hint))
+    solve = solve_star_field(altaz, det_norm[:, :2], image_aspect=prepared.size[0] / max(prepared.size[1], 1), max_candidates=min(120,len(solve_cat)), hfov_hint=float(hfov_hint))
     result["solve"] = solve
     if not solve.success or solve.inliers < 5:
         result["warning"] = "The sky pattern did not produce at least five independent star matches. No identities are shown; try a clearer image with more stars and verify the capture time, location, and FOV."
